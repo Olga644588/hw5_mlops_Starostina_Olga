@@ -1,0 +1,24 @@
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Виртуальные окружения
+venv/
+env/
+
+# Артефакты MLflow
+mlruns/
+mlflow.db
+
+# Модели и данные (управляются через DVC)
+models/
+data/raw/
+data/processed/
+
+# Другие временные файлы
+.DS_Store
+.vscode/
+*.log
