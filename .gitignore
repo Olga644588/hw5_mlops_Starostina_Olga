@@ -14,9 +14,16 @@ mlruns/
 mlflow.db
 
 # Модели и данные (управляются через DVC)
+# Но отслеживаем DVC‑дескрипторы
+!data/**/*.dvc
+!models/**/*.dvc
+
 models/
-data/raw/
-data/processed/
+data/raw/*
+!data/raw/*.dvc
+data/processed/*
+!data/processed/*.dvc
+
 
 # Другие временные файлы
 .DS_Store
