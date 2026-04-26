@@ -1,4 +1,8 @@
-split_ratio: 0.2
-n_estimators: 100
-random_state: 42
-model_type: "RandomForest"
+split:
+  split_ratio: 0.2
+  random_state: 42
+
+model:
+  n_estimators: 100
+  random_state: 42
+  model_type: "RandomForest"
