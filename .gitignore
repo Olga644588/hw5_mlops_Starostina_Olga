@@ -29,3 +29,5 @@ data/processed/*
 .DS_Store
 .vscode/
 *.log
+dvc_remote/
+
